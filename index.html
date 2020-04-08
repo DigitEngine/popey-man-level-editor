@@ -6,3 +6,43 @@
     <meta name="author" content="(C) M.T.S. 2020" />
     <meta name="description" content="A level editor for a game I created" />
     <meta name="viewport" content="width=device-width;initial-scale=1.0" />
+    <link rel="icon" href="./images/icon.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" />
+    <script src="./js/images.js"></script>
+    <script src="./js/filemanager.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1>Popey Man Level Editor [v1.00]</h1>
+      <h3>Created by M.T.S.</h3>
+      <hr />
+      <canvas id="cvs" class="inline" width="640" height="480"></canvas>
+      <div id="nav" class="inline">
+        <ul>
+          <h6>File</h6>
+          <ul>
+            <button onclick="newlevel();">New Level</button>
+            <button onclick="savelevel();">Save Level</button>
+            <button onclick="loadlevel();">Load Level</button>
+          </ul>
+          <h6>Level</h6>
+          <ul>
+            <b>Screens</b>
+            <ul>
+              Rows:<br />
+              <input id="lvlscrrows" type="number" value="2" placeholder="Type a number here..." /><br /><br />
+              Columns"<br />
+              <input id="lvlscrcols" type="number" value="2" placeholder="Type a number here..." /><br /><br />
+            </ul>
+            <b>Level Type</b>
+            <select id="level-type">
+              <option value="monastery">Default (Monastery)</option>
+              <option value="monastery">Monastery</option>
+              <option value="forest">Forest</option>
+              <
+        </ul>
+      </div>
+    </center>
+  </body>
+</html>
