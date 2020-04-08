@@ -18,44 +18,44 @@
       <h3>Created by M.T.S.</h3>
       <hr />
       <canvas id="cvs" class="inline" width="640" height="480"></canvas>
-      <div id="nav" class="inline">
-        <ul>
-          <h3>File</h3>
-          <ul>
-            <button onclick="newlevel();" class="inline">New Level</button>
-            <button onclick="savelevel();" class="inline">Save Level</button>
-            <button onclick="loadlevel();" class="inline">Load Level</button>
-          </ul>
-          <h3>Level</h3>
-          <ul>
-            <b>Screens</b>
-            <ul>
-              Rows:
-              <input id="lvlscrrows" type="number" value="2" placeholder="Type a number here..." /><br />
-              Columns:
-              <input id="lvlscrcols" type="number" value="2" placeholder="Type a number here..." />
-            </ul>
-            <b>Level Type</b>
-            <select id="level-type">
-              <option value="monastery">Default (Monastery)</option>
-              <option value="monastery">Monastery</option>
-              <option value="forest">Forest</option>
-              <option value="desert">Desert</option>
-              <option value="egypt">Egyptian Civilization</option>
-              <option value="rainforest">Rain Forest</option>
-              <option value="temple">Temple</option>
-              <option value="jupiter">Jupiter</option>
-              <option value="saturn">Saturn</option>
-            </select>
-          </ul>
-          <h3>Tiles</h3>
-          <ul>
-            Mode - <button onclick="switchmode(draw);">Draw</button>/<button onclick="switchmode(erase);">Erase</button><br />
-            Tile:
-            <img src="" />
-          </ul>
-        </ul>
-      </div>
     </center>
+    <div id="nav" class="inline">
+      <ul>
+        <h3>File</h3>
+        <ul>
+          <button onclick="newlevel();" class="inline">New Level</button>
+          <button onclick="savelevel();" class="inline">Save Level</button>
+          <button onclick="loadlevel();" class="inline">Load Level</button>
+        </ul>
+        <h3>Level</h3>
+        <ul>
+          <b>Screens</b>
+          <ul>
+            Rows:
+            <input id="lvlscrrows" type="number" value="2" placeholder="Type a number here..." /><br />
+            Columns:
+            <input id="lvlscrcols" type="number" value="2" placeholder="Type a number here..." />
+          </ul>
+          <b>Level Type</b>
+          <select id="level-type">
+            <option value="monastery">Default (Monastery)</option>
+            <option value="monastery">Monastery</option>
+            <option value="forest">Forest</option>
+            <option value="desert">Desert</option>
+            <option value="egypt">Egyptian Civilization</option>
+            <option value="rainforest">Rain Forest</option>
+            <option value="temple">Temple</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+          </select>
+        </ul>
+        <h3>Tiles</h3>
+        <ul>
+          Mode - <button onclick="switchmode(draw);">Draw</button>/<button onclick="switchmode(erase);">Erase</button><br />
+          Tile:
+          <img src="" />
+        </ul>
+      </ul>
+    </div>
   </body>
 </html>
