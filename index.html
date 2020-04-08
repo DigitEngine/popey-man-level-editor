@@ -22,25 +22,38 @@
         <ul>
           <h6>File</h6>
           <ul>
-            <button onclick="newlevel();">New Level</button>
-            <button onclick="savelevel();">Save Level</button>
-            <button onclick="loadlevel();">Load Level</button>
+            <button onclick="newlevel();" class="inline">New Level</button>
+            <button onclick="savelevel();" class="inline">Save Level</button>
+            <button onclick="loadlevel();" class="inline">Load Level</button>
           </ul>
           <h6>Level</h6>
           <ul>
             <b>Screens</b>
             <ul>
-              Rows:<br />
-              <input id="lvlscrrows" type="number" value="2" placeholder="Type a number here..." /><br /><br />
-              Columns"<br />
-              <input id="lvlscrcols" type="number" value="2" placeholder="Type a number here..." /><br /><br />
+              Rows:
+              <input id="lvlscrrows" type="number" value="2" placeholder="Type a number here..." /><br />
+              Columns:
+              <input id="lvlscrcols" type="number" value="2" placeholder="Type a number here..." />
             </ul>
             <b>Level Type</b>
             <select id="level-type">
               <option value="monastery">Default (Monastery)</option>
               <option value="monastery">Monastery</option>
               <option value="forest">Forest</option>
-              <
+              <option value="desert">Desert</option>
+              <option value="egypt">Egyptian Civilization</option>
+              <option value="rainforest">Rain Forest</option>
+              <option value="temple">Temple</option>
+              <option value="jupiter">Jupiter</option>
+              <option value="saturn">Saturn</option>
+            </select>
+          </ul>
+          <h6>Tiles</h6>
+          <ul>
+            Mode - <button onclick="switchmode(draw);">Draw</button>/<button onclick="switchmode(erase);">Erase</button><br />
+            Tile:
+            <img src="" />
+          </ul>
         </ul>
       </div>
     </center>
