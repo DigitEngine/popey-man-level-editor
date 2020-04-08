@@ -1,0 +1,28 @@
+body {
+  background: url('./images/background.png');
+  font-face: "Inconsolata";
+  color: #fff;
+}
+
+.inline {
+  display: inline;
+}
+
+#nav {
+  color: #000;
+  background: #fff;
+  border: 3px solid #000;
+  margin-left: 5px;
+}
+
+button {
+  background: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+button:hover {
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
