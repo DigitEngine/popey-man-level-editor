@@ -8,6 +8,10 @@ body {
   display: inline;
 }
 
+.inline {
+  display: inline;
+}
+
 #nav {
   color: #000;
   background: #fff;
