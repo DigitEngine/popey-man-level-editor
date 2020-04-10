@@ -28,10 +28,10 @@ var monasteryTiles = [
   ".images/tiles/monastery/solid_ThinVertT.png",
   ".images/tiles/monastery/solid_ThinVertB.png",
   ".images/tiles/monastery/solid_ThinHorizL.png",
-  ".images/tiles/monastery/solid_ThinHorizR.png"
+  ".images/tiles/monastery/solid_ThinHorizR.png",
   ".images/tiles/monastery/solid_Middle.png",
   ".images/tiles/monastery/brick_Brown.png",
-  ".images/tiles/monastery/brick_PurpleInt.png".
+  ".images/tiles/monastery/brick_PurpleInt.png",
   ".images/tiles/monastery/brick_PurpleTopL.png",
   ".images/tiles/monastery/brick_PurpleTopM.png",
   ".images/tiles/monastery/brick_PurpleTopR.png",
